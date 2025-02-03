@@ -255,4 +255,24 @@ footer {
     font-weight: 600;
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 720px) {
+    * {
+        background-color: #0056b3;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    #cabeceraa {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    ul {
+        display: flex;
+
+    }
+}
