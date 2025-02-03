@@ -255,7 +255,7 @@ footer {
     font-weight: 600;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     * {
         background-color: aqua;
         margin: 0;
@@ -270,6 +270,8 @@ footer {
     }
 
     .cabecera {
+        display: flex;
+        flex-direction: column;
         border-bottom: 1px solid black;
     }
 
