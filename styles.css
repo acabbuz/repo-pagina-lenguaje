@@ -4,17 +4,20 @@
 
 }
 
-body {
+article {
 
     margin-left: 10%;
     margin-right: 10%;
 }
-
+.cabecera{
+     border-bottom: 1px solid black;
+}
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    border-bottom: 1px solid black;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 13px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-items: center;
@@ -145,13 +148,14 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 30px;
 }
 .accesorio-oferta{
     text-align: center;
     font-size: 20px;
-    padding: 5px 10px 5px 10px;
+    padding: 8px 10px 8px 10px;
     margin-bottom: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: rgb(239, 56, 56);
     
     color: white;
@@ -159,13 +163,14 @@ nav {
 .accesorio-nuevo{
     text-align: center;
     font-size: 20px;
-    padding: 5px 10px 5px 10px;
+    padding: 8px 10px 8px 10px;
     margin-bottom: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: rgb(42, 145, 230);
     
     color: white;
 }
 .accesorios-p{
     font-size: 23px;
+    margin-bottom: 20px;
 }
