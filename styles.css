@@ -291,10 +291,11 @@ article {
         display: flex;
         flex-direction: column;
         text-align: justify;
+        align-items: center;
 
     }
     .principal img {
-        text-align: center;
+        
         width: 300px;
         padding: 0px;
         margin: 0px;
@@ -350,6 +351,6 @@ article {
     
     }
     #p-oferta{
-        font-size: 21px;
+        font-size: 20px;
     }
 }
