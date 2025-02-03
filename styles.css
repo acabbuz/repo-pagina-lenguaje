@@ -258,7 +258,7 @@ footer {
 
 @media (max-width: 720px) {
     * {
-        background-color: #0056b3;
+      
         margin: 0;
         padding: 0;
     }
@@ -296,7 +296,7 @@ article {
     }
     .principal img {
         
-        width: 300px;
+        width: 350px;
         padding: 0px;
         margin: 0px;
     }
@@ -352,5 +352,74 @@ article {
     }
     #p-oferta{
         font-size: 20px;
+    }
+    .oferta h4 {
+        margin-top: 10px;
+    }
+    .precio {
+        display: flex;
+        margin-top: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        gap: 20px;
+        align-items: center;
+    
+    }
+    .precio input {
+        font-size: 20px;
+        color: white;
+        background-color: rgb(6, 122, 230);
+        padding: 16px 20px;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+       
+    
+    }
+    .formulario {
+        background-color: rgb(214, 241, 255);
+       
+        
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .formulario-sorteo {
+        width: 100%;
+    
+    }
+    
+    .desc-form {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .input-form {
+        padding: 18px;
+        border-radius: 6px;
+        width: 100%;
+        border: 1px solid grey;
+    }
+    
+    .form-titulo {
+        text-align: center;
+        font-size: 30px;
+    
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .form-p {
+        font-size: 20px;
+        line-height: 200%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    label {
+        margin-top: 20px;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .env-form {
+        display: flex;
     }
 }
