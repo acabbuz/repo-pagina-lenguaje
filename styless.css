@@ -1,0 +1,13 @@
+*{
+    background-color: grey;
+}
+div{
+    text-align: center;
+    margin: 100px;
+    background-color:  gray;
+    border-radius:5px ;
+    border: 5px solid white;
+}
+h1{
+   margin: 100px;
+}
