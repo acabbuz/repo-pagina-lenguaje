@@ -45,6 +45,7 @@ nav {
     margin-top: 50px;
     margin-top: 50px;
     display: flex;
+   
 
 }
 
@@ -258,11 +259,19 @@ footer {
 @media (max-width: 720px) {
     * {
         background-color: #0056b3;
+        margin: 0;
+        padding: 0;
     }
 
     h1 {
         margin-bottom: 10px;
     }
+    
+article {
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
     #cabeceraa {
         display: flex;
@@ -274,5 +283,73 @@ footer {
     ul {
         display: flex;
 
+    }
+    .principal,
+    .accesorios {
+        margin-top: 50px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+
+    }
+    .principal img {
+        text-align: center;
+        width: 300px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .descrip {
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+       
+       
+    
+    }
+    .container {
+        text-align: center;
+        width: 100%;
+        margin: px;
+    }
+    .descrip img {
+        width: 22px;
+        height: 25px;
+        margin-right: 10px;
+        
+    
+    }
+    .oferta {
+        margin-left: 0px;
+    }
+    .oferta h4 {
+        text-align: center;
+        color: red;
+        font-weight: 900;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .accesorios-titulo {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .accesorios-partes {
+        text-align: center;
+        border: 2px solid black;
+        padding: 20px;
+        width: 100%;
+        margin: 15px;
+    }
+    .accesorios {
+        margin: 0;
+        display: flex;
+        align-items: center;
+    
+    }
+    #p-oferta{
+        font-size: 20px;
     }
 }
